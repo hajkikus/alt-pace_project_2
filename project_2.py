@@ -1,6 +1,7 @@
 from random import randrange
 from time import sleep
 
+
 def rand_dice():
     m, n = randrange(1, 7), randrange(1, 7)
     print(f"The sum of dice is {m} + {n} = {m + n}")
